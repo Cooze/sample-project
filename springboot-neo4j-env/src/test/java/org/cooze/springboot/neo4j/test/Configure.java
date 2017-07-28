@@ -21,9 +21,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ComponentScan
 @Configuration
 public class Configure {
-
-    public static final String URI = "http://neo4j:dayou123@192.168.1.87:7474";
-//    public static final String URI = "http://neo4j:123456@localhost:7474";
+    
+    public static final String URI = "http://neo4j:123456@localhost:7474";
 
     @Bean
     public org.neo4j.ogm.config.Configuration getConfiguration(){
